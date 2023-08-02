@@ -53,7 +53,7 @@ bool AD5246::isConnected()
 
 uint8_t AD5246::reset()
 {
-  write(AD5246_MIDPOINT);
+  return write(AD5246_MIDPOINT);
 }
 
 
